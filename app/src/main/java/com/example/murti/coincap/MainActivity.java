@@ -61,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
     NumberFormat numberFormat=NumberFormat.getInstance();
 
     DecimalFormat df=new DecimalFormat("#.###");
+    private int girKontrol=0;
 
 
     public static SQLiteHelper sqLiteHelper;
@@ -277,7 +278,9 @@ public class MainActivity extends AppCompatActivity {
                         String nameid = cursor.getString(0);
                         double pricedegeri = cursor.getDouble(1);
                         int rankdegeri = cursor.getInt(2);
+                        girKontrol=1;
                         if(Float.valueOf(modelValues.rank)==rankdegeri){
+                            girKontrol=1;
                             double carp=1;
                             switch (poss){
                                 case 0:
@@ -308,12 +311,17 @@ public class MainActivity extends AppCompatActivity {
                             toplam_para+=carp;
                             items.setToplam(pricedegeri);
                             items.setParaSembol(paraSembolu);
-                            // Toast.makeText(MainActivity.this,""+modelValues.symbol,Toast.LENGTH_LONG).show();
                             list.add(items);
                         }
-
-
                     }
+
+                            if(girKontrol==0){
+                            if(Float.valueOf(modelValues.rank)==1) {
+                                items.setToplam(0);
+                                items.setParaSembol(paraSembolu);
+                                list.add(items);
+                            }
+                        }
 
                 }
 
