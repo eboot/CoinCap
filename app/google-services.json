@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "37425695687",
+    "firebase_url": "https://coin-cap-7a913.firebaseio.com",
+    "project_id": "coin-cap-7a913",
+    "storage_bucket": "coin-cap-7a913.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37425695687:android:50fe2ca164aef5d8",
+        "android_client_info": {
+          "package_name": "com.example.murti.coincap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37425695687-gp2pef7on5glc5bfue7orgh9m2iaj7rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.murti.coincap",
+            "certificate_hash": "a85842fd3be7ab66eec6bb4c242142b8dded26ec"
+          }
+        },
+        {
+          "client_id": "37425695687-ku1j5cj9djv7l3kfam860f553bbagame.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKL_jAjD8LZ1THHhc_YOCG0YTDfvsVNOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37425695687-ku1j5cj9djv7l3kfam860f553bbagame.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

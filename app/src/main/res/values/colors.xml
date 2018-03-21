@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#7c7c7e</color>
+    <color name="colorTextDark">#5b5b5c</color>
+    <color name="colorUp">#07992e</color>
+    <color name="colorDown">#ba0d13</color>
+    <color name="arka">#f2f2f0</color>
+    <color name="arkaacik">#e4e2e2</color>
+    <color name="textRenk">#fffefe</color>
+    <color name="textcl">#ffffff</color>
+    <color name="colorSplash">#eef1f4</color>
+    <color name="koyu">#275b71</color>
+    <color name="backliner">#72a9c9</color>
+    <color name="backlineriki">#537b93</color>
+    <color name="etColor">#50ffdf</color>
+</resources>

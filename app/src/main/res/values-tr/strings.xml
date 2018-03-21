@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Coin Cap</string>
+
+
+    <string name="app_nameiki">Coin Cap</string>
+    <string name="price">Değeri  : </string>
+    <string name="app_nameuc">Grafik</string>
+    <string name="ggrafbtn">Değer Grafiği</string>
+    <string name="rank">Sıra No</string>
+    <string name="market">Piyasa Değeri</string>
+    <string name="Voluume24H">Hacim 24H</string>
+    <string name="change24">Değişim%(24h)</string>
+    <string name="editTextHind">miktarı girin</string>
+    <string name="banner_id">ca-app-pub-3688388679356685/1999812072</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="sil">Sil</string>
+    <string name="ekle">Ekle</string>
+    <string name="ara">Ara</string>
+    <string name="curPrice">Mevcut Değer</string>
+    <string name="saat">Tarih</string>
+
+</resources>

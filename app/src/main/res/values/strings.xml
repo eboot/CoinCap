@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Coin Cap</string>
+
+
+    <string name="app_nameiki">Coin Cap</string>
+    <string name="price">Price  : </string>
+    <string name="app_nameuc">Charts</string>
+    <string name="ggrafbtn">Price Graph</string>
+    <string name="rank">Rank</string>
+    <string name="market">Market Cap</string>
+    <string name="Voluume24H">Volume 24H</string>
+    <string name="change24">Change(24h)</string>
+    <string name="editTextHind">enter quantity</string>
+    <string name="banner_id">ca-app-pub-3688388679356685/1999812072</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="sil">Coin Delete</string>
+    <string name="ekle">Coin Add</string>
+    <string name="ara">Search Here</string>
+    <string name="curPrice">Current Price</string>
+    <string name="saat">Date</string>
+
+</resources>
