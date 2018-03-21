@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -195,6 +197,29 @@ public class MainActivity extends AppCompatActivity {
                     System.exit(0);
                 }
     }
+
+
+
+
+    //delete menu
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_add, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == R.id.coinAddd){
+
+            Intent ıntent=new Intent(MainActivity.this,ListFav.class);
+            ıntent.putExtra("spdeger",spdeger);
+            ıntent.putExtra("detay",detay);
+            startActivity(ıntent);
+        }
+        return false;
+    }
+
+
 
 
 
