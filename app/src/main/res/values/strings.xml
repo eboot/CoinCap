@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Coin Cap</string>
+    <string name="app_name">Coin Market Cap</string>
 
 
     <string name="app_nameiki">Coin Cap</string>
@@ -21,5 +21,6 @@
     <string name="curPrice">Current Price</string>
     <string name="saat">Date</string>
     <string name="uantity">Enter Quantity</string>
+    <string name="total">Total Portfolio Value</string>
 
 </resources>

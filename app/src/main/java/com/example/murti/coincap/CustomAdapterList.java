@@ -39,7 +39,6 @@ public class CustomAdapterList  extends ArrayAdapter<Items> {
         deger=degerli;
     }
 
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 

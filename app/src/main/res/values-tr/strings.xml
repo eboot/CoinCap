@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Coin Cap</string>
+    <string name="app_name">Coin Market Cap</string>
 
 
     <string name="app_nameiki">Coin Cap</string>
@@ -22,5 +22,6 @@
     <string name="curPrice">Mevcut Değer</string>
     <string name="saat">Tarih</string>
     <string name="uantity">Miktarı Girin</string>
+    <string name="total">Toplam Portföy Değeri</string>
 
 </resources>
