@@ -221,8 +221,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
     //internet varmı yok mu?
     public boolean InternetKontrol() {
         ConnectivityManager manager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -391,6 +389,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("volume_usd24",list.get(position).getVolume_usd24());
         intent.putExtra("spdeger",spdeger);
         intent.putExtra("paraSembolu",paraSembolu);
+        intent.putExtra("girKontrol",girKontrol);
 
         startActivity(intent);
     }

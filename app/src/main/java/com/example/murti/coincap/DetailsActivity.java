@@ -34,6 +34,7 @@ public class DetailsActivity extends AppCompatActivity {
     String photo_name;
     WebView vwgrafik;
     private int rankDeger=0;
+    private int girKontrol;
     //virgülden sonra  kaç basamak gösterecegini belirliyoruz
     DecimalFormat df=new DecimalFormat("#.###");
     NumberFormat numberFormat=NumberFormat.getInstance();
@@ -66,6 +67,7 @@ public class DetailsActivity extends AppCompatActivity {
         String  priceUsdx=bundle.getString("priceUsd");
         String rankd=bundle.getString("rank");
         String paraSembolu=bundle.getString("paraSembolu");
+        girKontrol=bundle.getInt("girKontrol");
         String volume_usd24=numberFormat.format(Float.valueOf(String.valueOf(volume_usd24x)));
         String priceUsd=numberFormat.format(Float.valueOf(String.valueOf(priceUsdx)));
         String market_cap_usd=numberFormat.format(Float.valueOf(String.valueOf(market_cap_usdx)));
@@ -115,7 +117,9 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if(item.getItemId() == R.id.coinDelete){
+            if(girKontrol!=0){
             showInputDialog();
+            }
         }
         return false;
     }

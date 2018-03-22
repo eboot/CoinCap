@@ -66,6 +66,7 @@ public class ListFav extends AppCompatActivity {
             restInterface = restAdapter.create(RestInterfaceController.class);
 
             degerler(detay);
+            listview.setTextFilterEnabled(true);
 
             searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
                 @Override
@@ -93,6 +94,7 @@ public class ListFav extends AppCompatActivity {
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
                     listGonder(position);
 
                 }
@@ -228,13 +230,13 @@ public class ListFav extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(),AddCoin.class);
 
         // listview in hangi itemine tıklandıysa diğer sayfada ilgili resmi göstermek için sunucudan gelen resmin adını yolluyoruz.
-        intent.putExtra("id",fav_list.get(position).getId());
-        intent.putExtra("name",fav_list.get(position).getName());
-        intent.putExtra("symbol",fav_list.get(position).getSymbol());
-        intent.putExtra("rank",fav_list.get(position).getRank());
-        intent.putExtra("market_cap_usd",fav_list.get(position).getMarket_cap_usd());
-        intent.putExtra("priceUsd",fav_list.get(position).getPrice_usd());
-        intent.putExtra("paraSembol",fav_list.get(position).getParaSembol());
+        intent.putExtra("id",customAdapter.getItem(position).getId());
+        intent.putExtra("name",customAdapter.getItem(position).getName());
+        intent.putExtra("symbol",customAdapter.getItem(position).getSymbol());
+        intent.putExtra("rank",customAdapter.getItem(position).getRank());
+        intent.putExtra("market_cap_usd",customAdapter.getItem(position).getMarket_cap_usd());
+        intent.putExtra("priceUsd",customAdapter.getItem(position).getPrice_usd());
+        intent.putExtra("paraSembol",customAdapter.getItem(position).getParaSembol());
 
         startActivity(intent);
     }
