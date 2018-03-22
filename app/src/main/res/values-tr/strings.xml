@@ -21,5 +21,6 @@
     <string name="ara">Ara</string>
     <string name="curPrice">Mevcut Değer</string>
     <string name="saat">Tarih</string>
+    <string name="uantity">Miktarı Girin</string>
 
 </resources>

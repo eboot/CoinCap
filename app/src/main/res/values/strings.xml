@@ -20,5 +20,6 @@
     <string name="ara">Search Here</string>
     <string name="curPrice">Current Price</string>
     <string name="saat">Date</string>
+    <string name="uantity">Enter Quantity</string>
 
 </resources>
