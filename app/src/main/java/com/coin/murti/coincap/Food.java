@@ -1,4 +1,4 @@
-package com.example.murti.coincap;
+package com.coin.murti.coincap;
 
 /**
  * Created by murti on 19.03.2018.

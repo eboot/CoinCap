@@ -1,27 +1,16 @@
-package com.example.murti.coincap;
+package com.coin.murti.coincap;
 
 
 import android.content.Context;
-import android.graphics.Color;
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import com.squareup.picasso.Picasso;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
-
-import utils.Constants;
 
 public class CustomAdapterList  extends ArrayAdapter<Items> {
 

@@ -1,4 +1,4 @@
-package com.example.murti.coincap;
+package com.coin.murti.coincap;
 
 import android.content.Context;
 import android.database.Cursor;

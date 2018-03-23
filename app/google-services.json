@@ -49,6 +49,50 @@
           "status": 2
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37425695687:android:36e107966bd871d8",
+        "android_client_info": {
+          "package_name": "com.coin.murti.coincap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37425695687-coo7pa5228ktdn7ts7nn0mva1u9ed7h8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.coin.murti.coincap",
+            "certificate_hash": "a85842fd3be7ab66eec6bb4c242142b8dded26ec"
+          }
+        },
+        {
+          "client_id": "37425695687-ku1j5cj9djv7l3kfam860f553bbagame.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKL_jAjD8LZ1THHhc_YOCG0YTDfvsVNOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37425695687-ku1j5cj9djv7l3kfam860f553bbagame.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
     }
   ],
   "configuration_version": "1"

@@ -1,4 +1,4 @@
-package com.example.murti.coincap;
+package com.coin.murti.coincap;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -7,16 +7,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.support.annotation.Nullable;
-import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
