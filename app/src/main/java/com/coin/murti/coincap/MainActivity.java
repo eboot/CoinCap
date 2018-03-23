@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     private String spdeger="USD";
     private int  poss=0;
     private int detay=0;
-   // private  Button buttonSort;
+
     private TextView toplamPara;
     private boolean sortla=true;
     ArrayList<Food> list_fav;
