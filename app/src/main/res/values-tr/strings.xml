@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Coin Market Cap</string>
+    <string name="app_name">Coin Pocket</string>
 
 
-    <string name="app_nameiki">Coin Cap</string>
+    <string name="app_nameiki">Coin Chart</string>
     <string name="price">Değeri  : </string>
     <string name="app_nameuc">Grafik</string>
     <string name="ggrafbtn">Değer Grafiği</string>

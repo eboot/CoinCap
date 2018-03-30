@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">Coin Market Cap</string>
+    <string name="app_name">Coin Pocket</string>
 
 
-    <string name="app_nameiki">Coin Cap</string>
+    <string name="app_nameiki">Coin Chart</string>
     <string name="price">Price  : </string>
     <string name="app_nameuc">Charts</string>
     <string name="ggrafbtn">Price Graph</string>
